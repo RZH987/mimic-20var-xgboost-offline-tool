@@ -1,0 +1,13 @@
+{
+  "model_version": "Reduced XGBoost 20-variable frozen model",
+  "source_model": "E:/文章复现/MIMIC-IV/paper/投稿/代码/MIMIC/机器学习/08_简化XGBoost模型结果汇总/06_模型与变量/selected_reduced_XGBoost.joblib",
+  "feature_order_file": "selected_reduced_variables.csv",
+  "n_features": 20,
+  "threshold": 0.23393866,
+  "threshold_display": 0.234,
+  "threshold_source": "MIMIC development set 5-fold OOF Youden index",
+  "preprocessing": "Frozen pipeline: numeric median imputation and StandardScaler fitted on development training data",
+  "training_period": "MIMIC-IV ICU 0-48 h feature window",
+  "offline": true,
+  "not_performed": ["retraining", "retuning", "refitting imputation", "threshold re-selection"]
+}
